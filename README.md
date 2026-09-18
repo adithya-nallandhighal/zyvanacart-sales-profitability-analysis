@@ -1,9 +1,17 @@
-# ZyvanaCart Sales & Profitability Investigation
-## Project Summary
-**ZyvanaCart** is an Indian multi-category e-commerce retailer selling **Clothing**, **Electronics**, and **Furniture**. 
-Despite generating healthy gross revenue, the business struggles with a low baseline profit margin of **8.44%** (₹36,963 net profit on ₹4,37,771 sales). 
+# 🛒 ZyvanaCart — Sales & Profitability Investigation
 
-This project provides an end-to-end data analytics workflow from raw transactional data cleaning to an interactive executive dashboard to isolate the key drivers of revenue loss, analyze sub-category margin leaks, and map geographic/customer concentration.
+> **An end-to-end data analytics project isolating revenue loss drivers, sub-category margin leaks, and customer concentration to transform top-line growth into bottom-line profitability.**
+
+---
+
+## 📌 Project Summary
+
+**ZyvanaCart** is an Indian multi-category e-commerce retailer operating across **Clothing**, **Electronics**, and **Furniture**[cite: 12]. Despite generating healthy gross revenue, the platform suffers from an underperforming baseline profit margin of **8.44%** (₹36,963 net profit on ₹4,37,771 sales)
+
+This investigation establishes a complete end-to-end data pipeline—from raw transactional data cleaning to an interactive executive dashboard—designed to:
+* **Isolate Key Leakage Drivers**: Pinpoint specific sub-categories dragging down total profitability.
+* **Expose Customer Concentration**: Map revenue vs. profit across customer deciles and locate net-loss accounts.
+* **Optimize Geographic Footprint**: Evaluate margin performance across states, major metros, and payment channels.
 ---
 ## Technical Architecture & Workflow
 <img width="953" height="486" alt="image" src="https://github.com/user-attachments/assets/adc53bb7-aa23-4af4-b1aa-e7a4ce058c2f" />

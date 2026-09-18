@@ -78,3 +78,26 @@ This project provides an end-to-end data analytics workflow from raw transaction
 ├── dashboard/
 
 │   └── index.html
+
+# AI AUTOMATED DASHBOARD ( USING JULIUS AI )
+
+## 🖥️ Executive Interactive Dashboard (Julius AI)
+
+To translate complex backend SQL/Python analysis into immediate business visibility, an automated, interactive **Revenue & Profitability Command Center** was engineered using **Julius AI**.
+
+### 1. Executive Overview & Macro KPIs
+<img width="1881" height="810" alt="image" src="https://github.com/user-attachments/assets/7c3ec1ec-0032-417c-b951-199a3b5a6939" />
+Real-time KPI Tracking: Instant visibility into baseline business health (₹4.37L Revenue, ₹36.9K Net Profit, 8.4% Margin across 5,615 units).
+Monthly Revenue & Profit Dynamics: Dual-axis line/bar charts tracking seasonality dips (e.g., negative profit troughs in May/July vs. peak performance in November).
+Payment Channel Breakdown: Donut visualization showing channel distribution, highlighting Cash on Delivery (COD) as the primary payment method driving 35.4% of total sales.
+
+### 2. Profitability Diagnostics & Segment Audits
+<img width="1846" height="882" alt="image" src="https://github.com/user-attachments/assets/385fb40b-53f2-4e2d-a6c6-18aa9b389b39" />
+Sales vs. Profit Scatter Quadrant: Instantly isolates "at-risk" sub-categories generating high sales volume but delivering sub-par or negative net profit margins.
+Profitability Watchlist: Automated priority table calling out loss-making sub-categories including Electronic Games (-1.6% margin), Furnishings (-6.0%), and Kurti (-11.9%).
+Multi-Dimensional Segmentation: Integrated breakdown showing macro Category performance, Top Revenue States (led by Maharashtra), and VIP Customer Spend distributions.
+
+
+
+
+

@@ -32,6 +32,28 @@ This project provides an end-to-end data analytics workflow from raw transaction
 | **Unique Customer Base** | **336 customers** |
 
 ---
+# AUDIT REPORT USING EXCEL 
+
+## 📋 Sales & Profit Integrity Audit Report (Excel & Data Validation)
+
+To guarantee 100% data fidelity before feeding backend databases or dashboard pipelines, a rigorous **Data Audit & Reconciliation** phase was conducted directly within Excel using structured validation models.
+
+### 1. Data Reconciliation & Reconciliation Metrics
+<img width="952" height="790" alt="image" src="https://github.com/user-attachments/assets/8b95ba3f-1658-4cda-86fd-2c8dd8f17ee5" />
+
+* **Full Dataset Certification**: Validated **1,500 line item records** cross-referenced against **500 unique orders** and **336 distinct customers** with zero missing keys or schema mismatches[cite: 11].
+* **Reconciled Core Totals**: Certified total baseline sales of **₹4,37,771.00** yielding **₹36,963.00** net profit (**8.44% profit margin**) across 5,615 total units[cite: 11].
+
+### 2. Strategic Category & Regional Breakdown
+* **Category Profitability Integrity**: 
+  * **Clothing**: Lead margin driver at **9.23%** (₹1,44,323.00 Sales / ₹13,325.00 Profit) across **3,516 units sold**[cite: 11].
+  * **Electronics**: Highest gross volume at **₹1,66,267.00 Sales**, but lowest margin efficiency at **7.92%** (₹13,162.00 Profit) across **1,154 units sold**[cite: 11].
+  * **Furniture**: Mid-tier revenue at **₹1,27,181.00 Sales** yielding **8.24% margin** (₹10,476.00 Profit) across **945 units sold**[cite: 11].
+* **Geographic Concentration**: **Maharashtra** leads top 10 states by sales volume, followed closely by **Uttar Pradesh**, **Rajasthan**, and **Punjab**[cite: 11].
+* **Order Footprint by City**: Order volume is heavily anchored in **Indore (71 orders)** and **Chandigarh (67 orders)**, followed by **Delhi (27 orders)** and **Kolkata (22 orders)**[cite: 11].
+* **Payment Channel Share**: **Cash on Delivery (COD)** dominates order count at **46%**, followed by **UPI (22%)**, **Debit Card (13%)**, **Credit Card (11%)**, and **EMI (8%)**[cite: 11].
+
+---
 
 ## 🔍 Key Analytical Findings
 

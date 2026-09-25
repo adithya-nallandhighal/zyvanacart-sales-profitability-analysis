@@ -128,34 +128,85 @@ Profitability Watchlist: Automated priority table calling out loss-making sub-ca
 Multi-Dimensional Segmentation: Integrated breakdown showing macro Category performance, Top Revenue States (led by Maharashtra), and VIP Customer Spend distributions.
 
 ---
-## 📈 Future Profitability & Growth Roadmap
+# Data Visualisation using Power-Bi 
+# Executive Overview : 
+<img width="1107" height="627" alt="image" src="https://github.com/user-attachments/assets/5f1abff1-75bc-4db1-bcd9-0c7d01f16601" />
 
-To scale ZyvanaCart sustainably and push net profit margins from **8.44% to a targeted 15%+**, the following strategic levers should be executed across operations, pricing, and customer experience:
+Snapshot: Total Sales ₹437.77K | Total Profit ₹36.963K | Profit Margin 8.44% | 500 Orders | 336 Customers | 5.615K Units Sold
+
+Key Insights:
+
+The business operates on a thin overall margin of 8.44%, meaning ~92% of revenue goes toward costs.
+Electronics is the top revenue category at 37.98% (₹166K) of total sales, followed by Furniture (29.05%) and Clothing (32.97%).
+Revenue is highly seasonal — January (₹62K) and March (₹61K) are peak months, while July (₹13K) is the weakest, indicating a mid-year dip (April–July).
+Recovery begins in August, building to a second peak in November (₹48K).
+Madhya Pradesh is the top-performing state by profit (₹7.382K, 19.97% margin), even though it isn't the top state by sales volume.
+Clothing is the most profitable category (36.05% profit margin), despite Electronics generating more raw revenue — showing profit and revenue leadership don't align.
+
+# Profitability Diagnostics : 
+<img width="1107" height="620" alt="image" src="https://github.com/user-attachments/assets/420b4904-5bb1-4341-890f-fcc335a4ee36" />
+
+Snapshot: Total Profit ₹36.963K | Profit Margin 8.44% | Top Profit Category: Clothing (36.05%) | Lowest Margin Sub-Category: Skirt (-16.19%) | 5 Negative-Profit Sub-Categories
+
+Key Insights:
+
+5 sub-categories are currently unprofitable: Furnishings (-₹0.8K), Electronic Games (-₹0.6K), Kurti (-₹0.4K), Skirt (-₹0.3K), Leggings (-₹0.1K).
+Skirt has the worst margin in the entire catalog at -16.19%, despite low sales volume — a strong candidate for repricing or discontinuation.
+Clothing contributes disproportionately to profit: 32.97% of sales but 36.05% of profit — the most efficient category.
+Electronics, while the top revenue category (37.98%), converts slightly less efficiently into profit (35.61% profit share) — a small but notable efficiency gap.
+Furniture underperforms on both fronts: 29.05% of sales and only 28.34% of profit.
+At the sub-category level, Printers (₹8,606 profit, 14.52% margin) and T-shirt/Shirt (~20% margins) are the standout performers — small-ticket clothing items are punching above their weight.
+
+# Customer & Geography : 
+<img width="1103" height="626" alt="image" src="https://github.com/user-attachments/assets/5efe9489-46bc-4ef4-9e80-9100a4aa0251" />
+
+Snapshot: 336 Unique Customers | Avg Order Value ₹1.30K | Top 10% Customers = 39.30% of Profit | Top Profit State: Madhya Pradesh
+
+Key Insights:
+
+Profit is highly concentrated: the top 10% of customers generate ~39.3% of total profit — a classic Pareto pattern that signals reliance on a small loyal customer base.
+Madan Mohan (₹2.2K), Aarushi (₹2.1K), and Shrichand (₹1.9K) are the top individual profit contributors.
+Maharashtra leads in raw sales (₹102K) but Madhya Pradesh leads in profit (₹7.4K) — MP's margin efficiency outweighs Maharashtra's higher volume.
+Andhra Pradesh (-₹0.3K) and Rajasthan (-₹0.3K) are the only states operating at a loss.
+At the city level, Chennai achieves an outstanding 41.46% margin on modest sales (₹6,276) — the most efficient city in the dataset.
+Indore delivers the best balance of scale and profitability (₹63,680 sales, ₹6,763 profit, 10.62% margin).
+Hyderabad (-2.11%) and Jaipur (-2.44%) are loss-making cities that need investigation despite reasonable sales volumes.
+
+# Payment & Detail : 
+<img width="1110" height="631" alt="image" src="https://github.com/user-attachments/assets/dbc6b5c7-fed5-4e4a-b760-145838b81e64" />
+
+Snapshot: Total Sales ₹437.771K | Total Profit ₹37K | Total Quantity Sold 5.615K | Profit Margin 8.44%
+
+Key Insights:
+
+COD (Cash on Delivery) is the most-used payment mode by far (₹155K in sales, ~35% of total), but its profit (₹12.5K) is only marginally ahead of Credit Card.
+Credit Card transactions are the most efficient — ₹12.6K profit from just ₹87K in sales (~14.5% margin), far better margin performance than COD.
+EMI (₹4.8K profit), Debit Card (₹3.7K), and UPI (₹3.3K) trail significantly in both volume and profit contribution.
+At the SKU level, Saree and Hankerchief move the most units (795 and 741 respectively), but Printers and Bookcases deliver far higher profit per unit sold — showing volume and profitability don't move together.
+The data reinforces a strategic opportunity: shifting customer payment behavior toward Credit Card (via incentives/cashback) could improve overall margin without needing to grow sales volume.
 
 ---
+# 📈 Future Profitability & Growth Roadmap
 
-### 1. Dynamic Pricing & Cross-Sell Engine
-* **Automated High-Margin Bundling**: Implement "Frequently Bought Together" prompts at checkout to bundle low-margin items (**Phones**, **Chairs**) with high-margin accessories (**Printers**, **Accessories**) to raise average order basket margin.
-* **Smart Free-Shipping Thresholds**: Set dynamic free-shipping tiers 15–20% above the current Average Order Value (AOV) to incentivize customers to add high-margin "filler" products to their cart.
+Based on the ZyvanaCart dashboard data (8.44% current margin), here are data-backed strategic levers to push profitability toward a 15%+ target:
 
----
+# 1. Dynamic Pricing & Cross-Sell Engine
+High-Margin Bundling: Bundle low-margin items (Phones — 4.00% margin, Electronic Games — -1.64% margin) with high-margin add-ons (Printers — 14.52%, Accessories — 15.43%, T-shirt — 20.32%) at checkout to lift basket-level margin without discounting.
+Smart Free-Shipping Thresholds: Set free-shipping tiers 15–20% above the current Average Order Value (₹1.30K) to nudge customers toward adding high-margin filler items rather than just more low-margin units.
 
-### 2. COD Optimization & RTO Loss Reduction
-* **Prepaid Incentives**: Cash on Delivery (COD) accounts for **46% of total transactions**. Offer micro-incentives (e.g., flat ₹20 off or 2% instant cashback) for converting to UPI or Credit Card payments[cite: 11].
-* **RTO (Return to Origin) Expense Reduction**: Converting orders to prepaid directly minimizes logistics losses from unfulfilled or rejected COD deliveries and speeds up cash flow conversion.
+# 2. COD Optimization & Payment Mix Shift
+Prepaid Incentives: COD is the largest payment channel by sales value (₹155K, ~35% of total ₹437.77K), yet Credit Card delivers a far better margin profile (₹12.6K profit on just ₹87K sales, ~14.5% margin) vs. COD's ₹12.5K profit on ₹155K sales (~8% margin). Offering small cashback/instant-discount incentives to shift COD customers to Credit Card or UPI directly improves conversion efficiency.
+RTO Loss Reduction: Converting COD orders to prepaid reduces return-to-origin logistics costs and improves cash flow timing — a lever not directly visible in the dashboard but a reasonable inference from the payment-mode profit gap.
 
----
+# 3. VIP Retention & Unprofitable Account Guardrails
+High-Decile Loyalty Perks: The top 10% of customers drive 39.30% of total profit (per the Customer & Geography page) — protect this base with loyalty tiers, priority support, and early sale access, since losing even a few of these accounts would disproportionately hurt margin.
+Margin Guardrails: Apply discount caps or minimum order values on sub-categories with chronic negative margins — Skirt (-16.19%), Kurti (-11.93%), Leggings (-6.17%), Furnishings (-5.98%), Electronic Games (-1.64%) — to stop active profit erosion on every unit sold.
 
-### 3. VIP Retention & Unprofitable Account Guardrails
-* **High-Decile Loyalty Perks**: Protect the top **10% of customers** who account for **44.86% of total net profit** through exclusive loyalty tiers, priority support, and early access to sales.
-* **Margin Guardrails on Repeat Buyers**: Set strict promotional discount caps and minimum order values (MOVs) for accounts with a history of negative net margins to stop profit erosion.
+# 4. Regional Fulfillment & Geographic Focus
+Metropolitan Logistics Review: Maharashtra is the top revenue state (₹102K) but its margin (~6.86%) trails the overall average (8.44%) and lags well behind Madhya Pradesh (₹87K sales, 19.97% margin). Reviewing cost-to-serve (logistics, discounting, returns) in Maharashtra could close this gap.
+Loss-Making Market Cleanup: Andhra Pradesh and Rajasthan are currently running at a net loss (-₹0.3K each) — audit pricing, discounting, and fulfillment costs in these states before further investment.
+City-Level Efficiency Model: Study Chennai (41.46% margin on modest ₹6,276 sales) and Indore (10.62% margin on ₹63,680 sales) as efficiency benchmarks — both outperform larger cities like Hyderabad (-2.11%) and Jaipur (-2.44%), which need root-cause investigation.
 
----
-
-### 4. Regional Fulfillment & Inventory Velocity
-* **Metropolitan Logistics Optimization**: Re-negotiate last-mile courier rates and inventory placement in **Maharashtra** (leading revenue state at ₹1.02L with a sub-par 6.79% margin) to lower cost-to-serve in high-density hubs.
-* **Deadstock Clearance**: Run targeted clearance campaigns on slow-moving, low-margin inventory (**Electronic Games**, **Kurti**) to free up working capital for top profit-generating categories[cite: 11].
-
-
-
-
+# 5. Deadstock & Category Rationalization
+Run clearance campaigns on chronically unprofitable sub-categories — Skirt, Kurti, Leggings, Furnishings, Electronic Games — to free up working capital for reinvestment in proven profit drivers like Printers, Bookcases (11.46% margin), and Clothing (36.05% category profit share).
+Double down on Clothing, which contributes only 32.97% of sales but 36.05% of profit — the single most profit-efficient category on the dashboard.

@@ -109,7 +109,7 @@ To guarantee 100% data fidelity before feeding backend databases or dashboard pi
 
 │   └── index.html
 
-# AI AUTOMATED DASHBOARD ( USING JULIUS AI )
+# AI AUTOMATED DASHBOARD ( USING JULIUS AI FOR QUICK ANALYSIS & VISUALISATION)
 
 ## 🖥️ Executive Interactive Dashboard (Julius AI)
 
@@ -128,7 +128,8 @@ Profitability Watchlist: Automated priority table calling out loss-making sub-ca
 Multi-Dimensional Segmentation: Integrated breakdown showing macro Category performance, Top Revenue States (led by Maharashtra), and VIP Customer Spend distributions.
 
 ---
-# Data Visualisation using Power-Bi 
+
+# DEEP-DIVE ANALYSIS & DATA VISUALISATION USING POWER-BI 
 # Executive Overview : 
 <img width="1107" height="627" alt="image" src="https://github.com/user-attachments/assets/5f1abff1-75bc-4db1-bcd9-0c7d01f16601" />
 

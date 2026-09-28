@@ -6,7 +6,7 @@
 
 ## 📌 Project Summary
 
-**ZyvanaCart** is an Indian multi-category e-commerce retailer operating across **Clothing**, **Electronics**, and **Furniture**[cite: 12]. Despite generating healthy gross revenue, the platform suffers from an underperforming baseline profit margin of **8.44%** (₹36,963 net profit on ₹4,37,771 sales)
+**ZyvanaCart** is an Indian multi-category e-commerce retailer operating across **Clothing**, **Electronics**, and **Furniture**. Despite generating healthy gross revenue, the platform suffers from an underperforming baseline profit margin of **8.44%** (₹36,963 net profit on ₹4,37,771 sales)
 
 This investigation establishes a complete end-to-end data pipeline—from raw transactional data cleaning to an interactive executive dashboard—designed to:
 * **Isolate Key Leakage Drivers**: Pinpoint specific sub-categories dragging down total profitability.

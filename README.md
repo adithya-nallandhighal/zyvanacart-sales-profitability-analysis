@@ -67,7 +67,7 @@ To guarantee 100% data fidelity before feeding backend databases or dashboard pi
 
 ### 1. Revenue vs. Profit Disconnect
 * **Loss Traps**: **Electronic Games** generated ₹39,168 in revenue but posted a **-1.64% net margin** (-₹643 profit).
-* **Underperforming Powerhouses**: **Phones** (₹48,228 sales, 4.58% margin) and **Chairs** (₹44,223 sales, 3.06% margin) yield disproportionately low profits relative to their sales volume.
+* **Underperforming Powerhouses**: **Phones** (₹46,119 sales, 4.00% margin.) and **Chairs** (₹34,222 sales, 4.75% margin.) yield disproportionately low profits relative to their sales volume.
 * **Volume Paradox**: Unit volume exhibits a weak correlation with profit ($r = 0.20$), proving that high sales volume on unoptimized items actively dilutes overall business margins.
 
 ### 2. Profit Concentration & Customer Dynamics

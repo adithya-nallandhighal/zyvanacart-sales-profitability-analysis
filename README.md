@@ -168,7 +168,7 @@ Key Insights:
 
 Profit is highly concentrated: the top 10% of customers generate ~39.3% of total Sales — a classic Pareto pattern that signals reliance on a small loyal customer base.
 Madan Mohan (₹2.2K), Aarushi (₹2.1K), and Shrichand (₹1.9K) are the top individual profit contributors.
-Madhya Pradesh generates approximately ₹87K in sales and contributes ₹7.382K in net profit, accounting for 19.97% of the company's total profit.
+Maharashtra leads in raw sales (₹102K), but Madhya Pradesh leads in profit, generating ₹7.382K in net profit from ₹87K in sales and contributing 19.97% of total business profit.
 Andhra Pradesh (-₹0.3K) and Rajasthan (-₹0.3K) are the only states operating at a loss.
 At the city level, Chennai achieves an outstanding 41.46% margin on modest sales (₹6,276) — the most efficient city in the dataset.
 Indore delivers the best balance of scale and profitability (₹63,680 sales, ₹6,763 profit, 10.62% margin).
@@ -205,7 +205,7 @@ High-Decile Loyalty Perks: The top 10% of customers drive 39.30% of total sales(
 Margin Guardrails: Apply discount caps or minimum order values on sub-categories with chronic negative margins — Skirt (-16.19%), Kurti (-11.93%), Leggings (-6.17%), Furnishings (-5.98%), Electronic Games (-1.64%) — to stop active profit erosion on every unit sold.
 
 # 4. Regional Fulfillment & Geographic Focus
-Metropolitan Logistics Review: Maharashtra is the top revenue state (₹102K) but its margin (~6.86%) trails the overall average (8.44%) and lags well behind Madhya Pradesh (₹87K sales, 19.97% margin). Reviewing cost-to-serve (logistics, discounting, returns) in Maharashtra could close this gap.
+Metropolitan Logistics Review: Maharashtra is the top revenue state (₹102K) but its margin (6.79%) trails the overall average (8.44%) and lags well behind Madhya Pradesh (₹87K sales, ₹7.382K profit, contributing 19.97% of total business profit).. Reviewing cost-to-serve (logistics, discounting, returns) in Maharashtra could close this gap.
 Loss-Making Market Cleanup: Andhra Pradesh and Rajasthan are currently running at a net loss (-₹0.3K each) — audit pricing, discounting, and fulfillment costs in these states before further investment.
 City-Level Efficiency Model: Study Chennai (41.46% margin on modest ₹6,276 sales) and Indore (10.62% margin on ₹63,680 sales) as efficiency benchmarks — both outperform larger cities like Hyderabad (-2.11%) and Jaipur (-2.44%), which need root-cause investigation.
 

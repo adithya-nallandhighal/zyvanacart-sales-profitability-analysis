@@ -20,6 +20,7 @@ This investigation establishes a complete end-to-end data pipeline—from raw tr
 * **SQL**: Relational modeling, cross-table aggregation, CTEs, and deep-dive margin leak audits.
 * **Python (`pandas`, `seaborn`, `matplotlib`)**: Exploratory Data Analysis (EDA), distribution checks, and customer Pareto segmentation.
 * **Frontend Analytics**: Custom interactive HTML/JS dashboard for executive decision-making.
+* **PowerBI**: Deep-Dive Analysis & Data Visualization.
 
 ---
 
@@ -46,20 +47,20 @@ This investigation establishes a complete end-to-end data pipeline—from raw tr
 
 To guarantee 100% data fidelity before feeding backend databases or dashboard pipelines, a rigorous **Data Audit & Reconciliation** phase was conducted directly within Excel using structured validation models.
 
-### 1. Data Reconciliation & Reconciliation Metrics
+### 1. Data Reconciliation Metrics
 <img width="952" height="790" alt="image" src="https://github.com/user-attachments/assets/8b95ba3f-1658-4cda-86fd-2c8dd8f17ee5" />
 
-* **Full Dataset Certification**: Validated **1,500 line item records** cross-referenced against **500 unique orders** and **336 distinct customers** with zero missing keys or schema mismatches[cite: 11].
-* **Reconciled Core Totals**: Certified total baseline sales of **₹4,37,771.00** yielding **₹36,963.00** net profit (**8.44% profit margin**) across 5,615 total units[cite: 11].
+* **Full Dataset Certification**: Validated **1,500 line item records** cross-referenced against **500 unique orders** and **336 distinct customers** with zero missing keys or schema mismatches.
+* **Reconciled Core Totals**: Certified total baseline sales of **₹4,37,771.00** yielding **₹36,963.00** net profit (**8.44% profit margin**) across 5,615 total units.
 
 ### 2. Strategic Category & Regional Breakdown
 * **Category Profitability Integrity**: 
-  * **Clothing**: Lead margin driver at **9.23%** (₹1,44,323.00 Sales / ₹13,325.00 Profit) across **3,516 units sold**[cite: 11].
-  * **Electronics**: Highest gross volume at **₹1,66,267.00 Sales**, but lowest margin efficiency at **7.92%** (₹13,162.00 Profit) across **1,154 units sold**[cite: 11].
-  * **Furniture**: Mid-tier revenue at **₹1,27,181.00 Sales** yielding **8.24% margin** (₹10,476.00 Profit) across **945 units sold**[cite: 11].
+  * **Clothing**: Lead margin driver at **9.23%** (₹1,44,323.00 Sales / ₹13,325.00 Profit) across **3,516 units sold**.
+  * **Electronics**: Highest gross volume at **₹1,66,267.00 Sales**, but lowest margin efficiency at **7.92%** (₹13,162.00 Profit) across **1,154 units sold**.
+  * **Furniture**: Mid-tier revenue at **₹1,27,181.00 Sales** yielding **8.24% margin** (₹10,476.00 Profit) across **945 units sold**.
 * **Geographic Concentration**: **Maharashtra** leads top 10 states followed by Madhya Pradesh, Uttar Pradesh, and Delhi
-* **Order Footprint by City**: Order volume is heavily anchored in **Indore (71 orders)** and **Chandigarh (67 orders)**, followed by **Delhi (27 orders)** and **Kolkata (22 orders)**[cite: 11].
-* **Payment Channel Share**: **Cash on Delivery (COD)** dominates order count at **46%**, followed by **UPI (22%)**, **Debit Card (13%)**, **Credit Card (11%)**, and **EMI (8%)**[cite: 11].
+* **Order Footprint by City**: Order volume is heavily anchored in **Indore (71 orders)** and **Chandigarh (67 orders)**, followed by **Delhi (27 orders)** and **Kolkata (22 orders)**.
+* **Payment Channel Share**: **Cash on Delivery (COD)** dominates order count at **46%**, followed by **UPI (22%)**, **Debit Card (13%)**, **Credit Card (11%)**, and **EMI (8%)**.
 
 ---
 
@@ -109,7 +110,7 @@ To guarantee 100% data fidelity before feeding backend databases or dashboard pi
 
 │   └── index.html
 
-# AI AUTOMATED DASHBOARD ( USING JULIUS AI FOR QUICK ANALYSIS & VISUALISATION)
+# AI-assisted HTML dashboard (Julius AI).
 
 ## 🖥️ Executive Interactive Dashboard (Julius AI)
 

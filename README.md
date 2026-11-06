@@ -168,7 +168,7 @@ Key Insights:
 
 Profit is highly concentrated: the top 10% of customers generate ~39.3% of total Sales — a classic Pareto pattern that signals reliance on a small loyal customer base.
 Madan Mohan (₹2.2K), Aarushi (₹2.1K), and Shrichand (₹1.9K) are the top individual profit contributors.
-Maharashtra leads in raw sales (₹102K) but Madhya Pradesh leads in profit (₹87K sales, 19.97% of total profit) 
+Madhya Pradesh generates approximately ₹87K in sales and contributes ₹7.382K in net profit, accounting for 19.97% of the company's total profit.
 Andhra Pradesh (-₹0.3K) and Rajasthan (-₹0.3K) are the only states operating at a loss.
 At the city level, Chennai achieves an outstanding 41.46% margin on modest sales (₹6,276) — the most efficient city in the dataset.
 Indore delivers the best balance of scale and profitability (₹63,680 sales, ₹6,763 profit, 10.62% margin).

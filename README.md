@@ -57,7 +57,7 @@ To guarantee 100% data fidelity before feeding backend databases or dashboard pi
   * **Clothing**: Lead margin driver at **9.23%** (₹1,44,323.00 Sales / ₹13,325.00 Profit) across **3,516 units sold**[cite: 11].
   * **Electronics**: Highest gross volume at **₹1,66,267.00 Sales**, but lowest margin efficiency at **7.92%** (₹13,162.00 Profit) across **1,154 units sold**[cite: 11].
   * **Furniture**: Mid-tier revenue at **₹1,27,181.00 Sales** yielding **8.24% margin** (₹10,476.00 Profit) across **945 units sold**[cite: 11].
-* **Geographic Concentration**: **Maharashtra** leads top 10 states by sales volume, followed closely by **Uttar Pradesh**, **Rajasthan**, and **Punjab**[cite: 11].
+* **Geographic Concentration**: **Maharashtra** leads top 10 states followed by Madhya Pradesh, Uttar Pradesh, and Delhi
 * **Order Footprint by City**: Order volume is heavily anchored in **Indore (71 orders)** and **Chandigarh (67 orders)**, followed by **Delhi (27 orders)** and **Kolkata (22 orders)**[cite: 11].
 * **Payment Channel Share**: **Cash on Delivery (COD)** dominates order count at **46%**, followed by **UPI (22%)**, **Debit Card (13%)**, **Credit Card (11%)**, and **EMI (8%)**[cite: 11].
 
@@ -141,8 +141,8 @@ The business operates on a thin overall margin of 8.44%, meaning ~92% of revenue
 Electronics is the top revenue category at 37.98% (₹166K) of total sales, followed by Furniture (29.05%) and Clothing (32.97%).
 Revenue is highly seasonal — January (₹62K) and March (₹61K) are peak months, while July (₹13K) is the weakest, indicating a mid-year dip (April–July).
 Recovery begins in August, building to a second peak in November (₹48K).
-Madhya Pradesh is the top-performing state by profit (₹7.382K, 19.97% margin), even though it isn't the top state by sales volume.
-Clothing is the most profitable category (36.05% profit margin), despite Electronics generating more raw revenue — showing profit and revenue leadership don't align.
+Madhya Pradesh is the top-performing state by profit (₹7.382K, 19.97% of total profit), even though it isn't the top state by sales volume.
+Clothing is the most profitable category (36.05% of total profit), despite Electronics generating more raw revenue — showing profit and revenue leadership don't align.
 
 # Profitability Diagnostics : 
 <img width="1107" height="620" alt="image" src="https://github.com/user-attachments/assets/420b4904-5bb1-4341-890f-fcc335a4ee36" />
@@ -161,13 +161,13 @@ At the sub-category level, Printers (₹8,606 profit, 14.52% margin) and T-shirt
 # Customer & Geography : 
 <img width="1103" height="626" alt="image" src="https://github.com/user-attachments/assets/5efe9489-46bc-4ef4-9e80-9100a4aa0251" />
 
-Snapshot: 336 Unique Customers | Avg Order Value ₹1.30K | Top 10% Customers = 39.30% of Profit | Top Profit State: Madhya Pradesh
+Snapshot: 336 Unique Customers | Avg Order Value ₹1.30K | Top 10% Customers = 39.30% of sales | Top Profit State: Madhya Pradesh
 
 Key Insights:
 
-Profit is highly concentrated: the top 10% of customers generate ~39.3% of total profit — a classic Pareto pattern that signals reliance on a small loyal customer base.
+Profit is highly concentrated: the top 10% of customers generate ~39.3% of total Sales — a classic Pareto pattern that signals reliance on a small loyal customer base.
 Madan Mohan (₹2.2K), Aarushi (₹2.1K), and Shrichand (₹1.9K) are the top individual profit contributors.
-Maharashtra leads in raw sales (₹102K) but Madhya Pradesh leads in profit (₹7.4K) — MP's margin efficiency outweighs Maharashtra's higher volume.
+Maharashtra leads in raw sales (₹102K) but Madhya Pradesh leads in profit (₹87K sales, 19.97% of total profit) 
 Andhra Pradesh (-₹0.3K) and Rajasthan (-₹0.3K) are the only states operating at a loss.
 At the city level, Chennai achieves an outstanding 41.46% margin on modest sales (₹6,276) — the most efficient city in the dataset.
 Indore delivers the best balance of scale and profitability (₹63,680 sales, ₹6,763 profit, 10.62% margin).
@@ -180,7 +180,7 @@ Snapshot: Total Sales ₹437.771K | Total Profit ₹37K | Total Quantity Sold 5.
 
 Key Insights:
 
-COD (Cash on Delivery) is the most-used payment mode by far (₹155K in sales, ~35% of total), but its profit (₹12.5K) is only marginally ahead of Credit Card.
+COD (Cash on Delivery) is the most-used payment mode by far (₹155K in sales, ~35% of total), but its profit (marginally behind Credit Card (₹12.6K)).
 Credit Card transactions are the most efficient — ₹12.6K profit from just ₹87K in sales (~14.5% margin), far better margin performance than COD.
 EMI (₹4.8K profit), Debit Card (₹3.7K), and UPI (₹3.3K) trail significantly in both volume and profit contribution.
 At the SKU level, Saree and Hankerchief move the most units (795 and 741 respectively), but Printers and Bookcases deliver far higher profit per unit sold — showing volume and profitability don't move together.
@@ -200,7 +200,7 @@ Prepaid Incentives: COD is the largest payment channel by sales value (₹155K, 
 RTO Loss Reduction: Converting COD orders to prepaid reduces return-to-origin logistics costs and improves cash flow timing — a lever not directly visible in the dashboard but a reasonable inference from the payment-mode profit gap.
 
 # 3. VIP Retention & Unprofitable Account Guardrails
-High-Decile Loyalty Perks: The top 10% of customers drive 39.30% of total profit (per the Customer & Geography page) — protect this base with loyalty tiers, priority support, and early sale access, since losing even a few of these accounts would disproportionately hurt margin.
+High-Decile Loyalty Perks: The top 10% of customers drive 39.30% of total sales(per the Customer & Geography page) — protect this base with loyalty tiers, priority support, and early sale access, since losing even a few of these accounts would disproportionately hurt margin.
 Margin Guardrails: Apply discount caps or minimum order values on sub-categories with chronic negative margins — Skirt (-16.19%), Kurti (-11.93%), Leggings (-6.17%), Furnishings (-5.98%), Electronic Games (-1.64%) — to stop active profit erosion on every unit sold.
 
 # 4. Regional Fulfillment & Geographic Focus

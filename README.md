@@ -67,8 +67,8 @@ To guarantee 100% data fidelity before feeding backend databases or dashboard pi
 ## 🔍 Key Analytical Findings
 
 ### 1. Revenue vs. Profit Disconnect
-* **Loss Traps**: **Electronic Games** Electronic Games generated ₹39,168 in revenue but posted a -1.64% net margin (-₹644 profit).
-* **Underperforming Powerhouses**: **Phones** (₹46,119 sales, 4.00% margin.) and **Chairs** (₹34,222 sales, 4.75% margin.) yield disproportionately low profits relative to their sales volume.
+* **Loss Traps**: **Electronic Games** generated ₹39,168 in revenue but posted a -1.64% net margin (-₹644 profit).
+* **Underperforming Powerhouses**: **Phones** (₹46,119 sales, 4.00% margin) and **Chairs** (₹34,222 sales, 4.75% margin) yield disproportionately low profits relative to their sales volume.
 * **Volume Paradox**: Unit volume exhibits a weak correlation with profit ($r = 0.20$), proving that high sales volume on unoptimized items actively dilutes overall business margins.
 
 ### 2. Profit Concentration & Customer Dynamics
@@ -139,7 +139,7 @@ Snapshot: Total Sales ₹437.77K | Total Profit ₹36.963K | Profit Margin 8.44%
 Key Insights:
 
 The business operates on a thin overall margin of 8.44%, meaning ~92% of revenue goes toward costs.
-Electronics is the top revenue category at 37.98% (₹166K) of total sales, followed by Furniture (29.05%) and Clothing (32.97%).
+Electronics is the top revenue category at 37.98% (₹166K) of total sales, followed by Clothing (32.97%) and Furniture (29.05%).
 Revenue is highly seasonal — January (₹62K) and March (₹61K) are peak months, while July (₹13K) is the weakest, indicating a mid-year dip (April–July).
 Recovery begins in August, building to a second peak in November (₹48K).
 Madhya Pradesh is the top-performing state by profit (₹7.382K, 19.97% of total profit), even though it isn't the top state by sales volume.
@@ -162,11 +162,11 @@ At the sub-category level, Printers (₹8,606 profit, 14.52% margin) and T-shirt
 # Customer & Geography : 
 <img width="1103" height="626" alt="image" src="https://github.com/user-attachments/assets/5efe9489-46bc-4ef4-9e80-9100a4aa0251" />
 
-Snapshot: 336 Unique Customers | Avg Order Value ₹1.30K | Top 10% Customers = 39.30% of sales | Top Profit State: Madhya Pradesh
+Snapshot: 336 Unique Customers | Avg Order Value ₹1.30K (dashboard card, calculated as total sales ÷ 336 unique customers, i.e. revenue per customer) | Top 10% Customers = 39.30% of sales | Top Profit State: Madhya Pradesh
 
 Key Insights:
 
-Profit is highly concentrated: the top 10% of customers generate ~39.3% of total Sales — a classic Pareto pattern that signals reliance on a small loyal customer base.
+Sales are highly concentrated: the top 10% of customers generate ~39.3% of total Sales — a classic Pareto pattern that signals reliance on a small loyal customer base.
 Madan Mohan (₹2.2K), Aarushi (₹2.1K), and Shrichand (₹1.9K) are the top individual profit contributors.
 Maharashtra leads in raw sales (₹102K), but Madhya Pradesh leads in profit, generating ₹7.382K in net profit from ₹87K in sales and contributing 19.97% of total business profit.
 Andhra Pradesh (-₹0.3K) and Rajasthan (-₹0.3K) are the only states operating at a loss.
@@ -183,7 +183,7 @@ Key Insights:
 
 COD (Cash on Delivery) is the most-used payment mode by far (₹155K in sales, ~35% of total), but its profit (marginally behind Credit Card (₹12.6K)).
 Credit Card transactions are the most efficient — ₹12.6K profit from just ₹87K in sales (~14.5% margin), far better margin performance than COD.
-EMI (₹4.8K profit), Debit Card (₹3.7K), and UPI (₹3.3K) trail significantly in both volume and profit contribution.
+EMI (₹4.8K profit), Debit Card (₹3.7K), and UPI (₹3.3K) trail far behind in profit, though EMI (₹78K) and UPI (₹69K) are close to Credit Card (₹87K) in sales.
 At the SKU level, Saree and Hankerchief move the most units (795 and 741 respectively), but Printers and Bookcases deliver far higher profit per unit sold — showing volume and profitability don't move together.
 The data reinforces a strategic opportunity: shifting customer payment behavior toward Credit Card (via incentives/cashback) could improve overall margin without needing to grow sales volume.
 

@@ -197,7 +197,7 @@ High-Margin Bundling: Bundle low-margin items (Phones — 4.00% margin, Electron
 Smart Free-Shipping Thresholds: Set free-shipping tiers 15–20% above the typical order value (~₹876, i.e. ₹437.77K ÷ 500 orders; the ₹1.30K dashboard card is revenue per customer) to nudge customers toward adding high-margin filler items rather than just more low-margin units.
 
 # 2. COD Optimization & Payment Mix Shift
-Prepaid Incentives: COD is the largest payment channel by sales value (₹155K, ~35% of total ₹437.77K), yet Credit Card delivers a far better margin profile (₹12.6K profit on just ₹87K sales, ~14.5% margin) vs. COD's ₹12.5K profit on ₹155K sales (~8% margin). Offering small cashback/instant-discount incentives to shift COD customers to Credit Card or UPI directly improves conversion efficiency.
+Credit Card Incentives: COD is the largest payment channel by sales value (₹155K, ~35% of total ₹437.77K), yet Credit Card delivers a far better margin profile (₹12.6K profit on just ₹87K sales, ~14.5% margin) vs. COD's ₹12.5K profit on ₹155K sales (~8% margin). Offering small cashback/instant-discount incentives to shift COD customers to Credit Card directly improves conversion efficiency.
 RTO Loss Reduction: Converting COD orders to prepaid reduces return-to-origin logistics costs and improves cash flow timing — a lever not directly visible in the dashboard but a reasonable inference from the payment-mode profit gap.
 
 # 3. VIP Retention & Unprofitable Account Guardrails
